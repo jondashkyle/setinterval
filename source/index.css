@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px; 
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  text-align: center;
+}
+
+header {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+a {
+  color: currentColor;
+}
+
+ul {
+  max-width: 20rem;
+}
+
+ul li {
+  list-style: none;
+  padding: 1rem 0.5rem;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "setinterval",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"><a href=\"https://setinterval.zone\">setInterval.zone</a></h1> <div align=\"center\">browser-based durational works<br><br></div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jon-Kyle <contact@jon-kyle.com> (http://jon-kyle.com)",
+  "license": "ISC"
+}
