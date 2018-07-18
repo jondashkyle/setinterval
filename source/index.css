@@ -30,6 +30,8 @@ header {
 h1 {
   font-size: 1rem;
   font-weight: normal;
+  -moz-animation: blink 1s steps(1, end) infinite;
+  -webkit-animation: blink 1s steps(1, end) infinite;
 }
 
 main {
@@ -50,6 +52,11 @@ a {
   color: currentColor;
 }
 
+p {
+  max-width: 30rem;
+  padding: 1rem;
+}
+
 ul {
   max-width: 20rem;
 }
@@ -57,4 +64,14 @@ ul {
 ul li {
   list-style: none;
   padding: 1rem 0.5rem;
+}
+
+@-moz-keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
 }
